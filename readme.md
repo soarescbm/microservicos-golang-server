@@ -4,21 +4,26 @@
 
 ### 1 - Servidor Web - Nginx
 
-  - Diretório: k8s/nginx: 
+  - k8s/nginx: 
     - deployment.yaml
     - configmap.yaml
     - service.yaml
 
 ### 2) Configuração do MySQL
 
-  - Diretório: k8s/mysql: 
+  - k8s/mysql: 
     - deployment.yaml
     - persistent-volume.yaml
     - service.yaml      
 
 ### 3) Desafio Go!
 
-  - Diretório: k8s/golang:
+  - src/app:
+    - app.go
+    - app_test.go
+  - cloudbuild.yaml
+  - Dockerfile
+  - k8s/golang:
     - deployment.yaml
     - service.yaml      
   
@@ -33,6 +38,7 @@ https://cloud.docker.com/repository/docker/soarescbm/golang-server-otimizada
 ```
 soarescbm/golang-server-otimizada
 ```
+
 
 
   
