@@ -2,9 +2,9 @@
 #desafio CI - Install, Test, Push...
 steps:
 
-- id: 'Install server'
+- id: 'Install appserver'
   name: 'gcr.io/cloud-builders/go'
-  args: ['install', 'server']
+  args: ['install', 'app']
 #  args: ['install', '.']
   env: ['GOPATH=.']
 #  env: ['PROJECT_ROOT=soma']
@@ -12,7 +12,7 @@ steps:
 
 - id: 'Test Server'
   name: 'gcr.io/cloud-builders/go'
-  args: ['test', '-v','server']
+  args: ['test', '-v','app']
   env: ['GOPATH=.']
 #  env: ['PROJECT_ROOT=soma']
 
