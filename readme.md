@@ -4,23 +4,23 @@
 
 ### 1 - Servidor Web - Nginx
 
-  - Diretório: k8s/nginx
-               - deployment.yaml
-               - configmap.yaml
-               - service.yaml
+  - Diretório: k8s/nginx: 
+    - deployment.yaml
+    - configmap.yaml
+    - service.yaml
 
 ### 2) Configuração do MySQL
 
-  - Diretório: k8s/mysql
-               - deployment.yaml
-               - persistent-volume.yaml
-               - service.yaml      
+  - Diretório: k8s/mysql: 
+    - deployment.yaml
+    - persistent-volume.yaml
+    - service.yaml      
 
 ### 3) Desafio Go!
 
-  - Diretório: k8s/golang
-               - deployment.yaml
-               - service.yaml      
+  - Diretório: k8s/golang:
+    - deployment.yaml
+    - service.yaml      
   
   - Endereço do repositório:
   
