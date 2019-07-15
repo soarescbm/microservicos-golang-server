@@ -13,6 +13,6 @@ WORKDIR /bin
 
 COPY --from=buildando /go/bin/app /bin
 
-EXPOSE 8000
+EXPOSE 80
 
 CMD ["/bin/app"]
