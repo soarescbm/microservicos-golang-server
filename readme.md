@@ -38,6 +38,13 @@ https://cloud.docker.com/repository/docker/soarescbm/golang-server-otimizada
 
 ```
 soarescbm/golang-server-otimizada   
+
+```
+
+  - App golang rodando com o Kubernetes no GCP:
+
+```
+http://35.226.253.217/
 ```
 
 
