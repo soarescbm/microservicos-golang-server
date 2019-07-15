@@ -8,5 +8,5 @@ spec:
     app: golang-server
     tier: golang
   ports:
-  - port: 8000
+  - port: 80
 
