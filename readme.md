@@ -44,7 +44,7 @@ soarescbm/golang-server-otimizada
   - App golang rodando com o Kubernetes no GCP:
 
 ```
-http://35.226.253.217/
+http://35.226.253.217/  
 ```
 
 
