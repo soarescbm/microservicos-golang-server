@@ -6,7 +6,7 @@ spec:
   type: LoadBalancer
   selector:
     app: golang-server
-    tier: golang
+    tier: golang 
   ports:
   - port: 80
 
